@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/https//DarkLight-DL.github.io/Bloom/static/css/main.e6c13ad2.css",
-    "main.js": "/https//DarkLight-DL.github.io/Bloom/static/js/main.3d586515.js",
-    "static/js/453.e628baf0.chunk.js": "/https//DarkLight-DL.github.io/Bloom/static/js/453.e628baf0.chunk.js",
-    "static/media/pic1.jpg": "/https//DarkLight-DL.github.io/Bloom/static/media/pic1.56696336be08ec499578.jpg",
-    "static/media/pic3.jpg": "/https//DarkLight-DL.github.io/Bloom/static/media/pic3.9d77b85366b000843533.jpg",
-    "static/media/pic2.jpg": "/https//DarkLight-DL.github.io/Bloom/static/media/pic2.ae88a0704b6edbb258b4.jpg",
-    "static/media/pic4.jpg": "/https//DarkLight-DL.github.io/Bloom/static/media/pic4.c90b8388ec5ff568804e.jpg",
-    "index.html": "/https//DarkLight-DL.github.io/Bloom/index.html",
-    "main.e6c13ad2.css.map": "/https//DarkLight-DL.github.io/Bloom/static/css/main.e6c13ad2.css.map",
-    "main.3d586515.js.map": "/https//DarkLight-DL.github.io/Bloom/static/js/main.3d586515.js.map",
-    "453.e628baf0.chunk.js.map": "/https//DarkLight-DL.github.io/Bloom/static/js/453.e628baf0.chunk.js.map"
+    "main.css": "/Bloom/static/css/main.e6c13ad2.css",
+    "main.js": "/Bloom/static/js/main.db66d198.js",
+    "static/js/453.e628baf0.chunk.js": "/Bloom/static/js/453.e628baf0.chunk.js",
+    "static/media/pic1.jpg": "/Bloom/static/media/pic1.56696336be08ec499578.jpg",
+    "static/media/pic3.jpg": "/Bloom/static/media/pic3.9d77b85366b000843533.jpg",
+    "static/media/pic2.jpg": "/Bloom/static/media/pic2.ae88a0704b6edbb258b4.jpg",
+    "static/media/pic4.jpg": "/Bloom/static/media/pic4.c90b8388ec5ff568804e.jpg",
+    "index.html": "/Bloom/index.html",
+    "main.e6c13ad2.css.map": "/Bloom/static/css/main.e6c13ad2.css.map",
+    "main.db66d198.js.map": "/Bloom/static/js/main.db66d198.js.map",
+    "453.e628baf0.chunk.js.map": "/Bloom/static/js/453.e628baf0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3d586515.js"
+    "static/js/main.db66d198.js"
   ]
 }
