@@ -38,7 +38,6 @@ const Hero = () => {
                 mb: 3,
               }}
             >
-
               Across the world, food brings people together, tells stories passed down through
               generations, and celebrates both everyday moments and special occasions. From the
               comforting aroma of a home-cooked meal to the bold flavors of global cuisines,
