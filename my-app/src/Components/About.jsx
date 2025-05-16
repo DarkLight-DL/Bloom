@@ -23,7 +23,7 @@ const About = () => {
       >
         {/* Latest Post Section */}
         <Grid item lg={3} md={3} sm={4} xs={12}>
-          <Typography sx={{ fontWeight: 'bold', mb: '20px' }}>
+          <Typography sx={{ fontSize:'15px',fontWeight: 'bold', mb: '20px' }}>
             Latest Post
           </Typography>
           <Box component="ul" sx={{ listStyleType: 'none' }}>
@@ -65,8 +65,8 @@ const About = () => {
         </Grid>
 
         {/* About Section */}
-        <Grid item lg={4} md={3} sm={4} xs={12}>
-          <Typography sx={{ fontWeight: 'bold', mb: '20px' }}>About</Typography>
+        {/* <Grid item lg={4} md={3} sm={4} xs={12}>
+          <Typography sx={{fontSize:'15px', fontWeight: 'bold', mb: '20px' }}>About</Typography>
           <Typography
             sx={{
               fontSize: { xs: '10px', sm: '14px', md: "13px", lg: '16px' },
@@ -81,11 +81,43 @@ const About = () => {
             reflecting culture, tradition, and identity. Sharing a meal creates bonds,
             memories, and celebrates life’s milestones.
           </Typography>
+        </Grid> */}
+
+
+                <Grid item lg={3} md={3} sm={4} xs={12}>
+          <Typography sx={{ fontSize:'15px',fontWeight: 'bold', mb: '20px' }}>
+            About
+          </Typography>
+            <Typography
+            sx={{
+              fontSize: { xs: '10px', sm: '14px', md: "13px", lg: '16px' },
+              '&:hover': {
+                color: 'rgb(235, 149, 19)',
+                cursor: 'pointer',
+              },
+            }}
+            >
+
+
+                          Food brings people together, telling stories and celebrating both
+            everyday moments and special occasions. Each dish carries meaning,
+            reflecting culture, tradition, and identity. Sharing a meal creates bonds,
+            memories, and celebrates life’s milestones.
+
+
+            </Typography>
+
         </Grid>
+
+
+
+
+
+
 
         {/* Stay Connected Section */}
         <Grid item lg={3} md={3} sm={4} xs={12}>
-          <Typography sx={{ fontWeight: 'bold', mb: '20px' }}>
+          <Typography sx={{ fontSize:'15px',fontWeight: 'bold', mb: '20px' }}>
             Stay Connected
           </Typography>
           <Stack spacing={2}>
@@ -143,6 +175,7 @@ const About = () => {
             </Box>
           </Stack>
         </Grid>
+        
       </Grid>
     </Box>
   );
