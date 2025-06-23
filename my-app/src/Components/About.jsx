@@ -69,7 +69,7 @@ const About = () => {
           <Typography sx={{ fontSize: '15px', fontWeight: 'bold', mb: '20px' }}>
             About
           </Typography>
-          <Typography
+          <Typography varient='p'
             sx={{
               fontSize: { xs: '10px', sm: '14px', md: "13px", lg: '14px' },
               '&:hover': {
@@ -78,14 +78,10 @@ const About = () => {
               },
             }}
           >
-
-
             Food brings people together, telling stories and celebrating both
             everyday moments and special occasions. Each dish carries meaning,
             reflecting culture, tradition, and identity. Sharing a meal creates bonds,
             memories, and celebrates life’s milestones.
-
-
           </Typography>
 
         </Grid>
@@ -94,8 +90,7 @@ const About = () => {
 
 
 
-
-
+y
         {/* Stay Connected Section */}
         <Grid item xs={12} sm={4} md={3} lg={3}>
           <Typography sx={{ fontSize: '15px', fontWeight: 'bold', mb: '20px' }}>
