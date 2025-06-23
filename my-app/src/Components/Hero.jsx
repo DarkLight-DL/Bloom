@@ -6,25 +6,45 @@ const Hero = () => {
   return (
     <Box
       sx={{
-        backgroundColor: '#e6e6e6',
+        position: 'relative',
+        backgroundColor: 'rgba(139, 137, 137, 0.06)',
         px: { xs: 2, sm: 4, md: 8 },
         py: { xs: 4, sm: 6, md: 8 },
         "&:hover": {
-          backgroundColor: "#f2f2f2",
+          backgroundColor: 'rgba(139, 137, 137, 0.18)',
+
         },
       }}
     >
+      <Box
+        component="img"
+        src={pic1}
+        alt="Bloom Website Visual"
+        sx={{
+          position: 'absolute',
+          top: '50%',
+          bottom: '50%',
+          left: '50%',
+          height: '95%',
+          width: '98%',
+          transform: 'translate(-50% , -50%)',
+          objectFit: 'cover',
+          cursor: 'pointer',
+          opacity: '0.40',
+          zIndex: -1,
+        }}
+      />
+
       <Grid container spacing={5}>
         {/* Text Section */}
         <Grid item xs={12} md={6} lg={6}>
           <Box sx={{ ml: { xs: '0', md: '0', lg: '100px' } }}>
             <Typography
               sx={{
-                fontSize: { xs: '20px', sm: '20px',md:'25px' },
-                ml: { xs: '15px', sm: '5px',md:'0px' },
+                fontSize: { xs: '20px', sm: '20px', md: '25px' },
+                ml: { xs: '15px', sm: '5px', md: '0px' },
                 fontWeight: 'bold',
                 mb: '20px',
-                // ml: '10px',
               }}
             >
               Bloom
@@ -59,8 +79,13 @@ const Hero = () => {
                   py: 1.5,
                   width: { xs: 'auto', sm: '150px' },
                   fontSize: '14px',
+                  boxShadow: ' 5px 5px 10px black',
+
                   '&:hover': {
                     backgroundColor: '#cc8400',
+                    transform: 'scale(1.1)',
+
+                    boxShadow: ' 5px 5px 10px black',
                   },
                   m: { xs: '20px', md: '20px', lg: '0' },
                   mt: { xs: '20px', md: '20px', lg: '30px' },
@@ -77,17 +102,26 @@ const Hero = () => {
           <Box
             sx={{
               display: 'flex',
+              maxWidth: '450px',
+              cursor: 'pointer',
+              boxShadow: ' 5px 5px 10px black',
+
               justifyContent: { xs: 'center' },
+              '&:hover': {
+                transform: 'scale(1.1)',
+                boxShadow: ' 5px 5px 10px black',
+              },
             }}
           >
-            <img
+            {/* <img */}
+            <Box component='img'
               src={pic1}
               alt="Bloom Website Visual"
               style={{
                 width: '100%',
-                maxWidth: '450px',
                 height: 'auto',
-                objectFit: 'contain',
+                cursor: 'pointer',
+                objectFit: 'cover',
               }}
             />
           </Box>
