@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
-import pic1 from '../Asserts/pic1.jpg';
+import pic1 from '../Asserts/pic1.webp';
 
 const Hero = () => {
   return (
