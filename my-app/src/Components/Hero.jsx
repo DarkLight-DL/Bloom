@@ -118,8 +118,8 @@ const Hero = () => {
               src={pic1}
               alt="Bloom Website Visual"
               style={{
-                width: '100%',
-                height: 'auto',
+                height: '95%',
+                width: '95%',
                 cursor: 'pointer',
                 objectFit: 'cover',
               }}

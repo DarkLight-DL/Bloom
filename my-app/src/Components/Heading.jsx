@@ -44,7 +44,7 @@ const cardData2 = [
 
 const Heading = () => {
   return (
-    <Box sx={{ backgroundColor: 'white', margin: '10px', padding: '50px' }}>
+    <Box sx={{boxSizing:'border-box', backgroundColor: 'white', margin: '10px', padding: '50px' }}>
       <Typography variant="h4" sx={{ fontWeight: 'bold', mb: '30px' }}>
         Foods
       </Typography>

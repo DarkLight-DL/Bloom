@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Button, Box, Stack, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText, TextField, InputAdornment } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import CloseIcon from '@mui/icons-material/Close';
 
 const navLinks = ['Home', 'About', 'Services', 'Portfolio', 'Contact us'];
 
@@ -19,9 +20,13 @@ const Navbar = () => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h5" sx={{ my: 0, fontFamily: 'cursive', fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' } }}>
+
+      <Box sx={{display:'flex'}}>
+      <Typography variant="h5" flexGrow={1} sx={{position:'relative', fontFamily: 'cursive', textAlign:'center',fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' } }}>
         Bloom
       </Typography>
+      <CloseIcon sx={{m:1,position:'absolute'}}/>
+      </Box>
       <List>
         {navLinks.map((item) => (
           <ListItem key={item} disablePadding>
