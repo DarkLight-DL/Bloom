@@ -2,6 +2,10 @@ import React from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
 import pic1 from '../Asserts/pic1.webp';
 
+import video1 from '../Asserts/video.gif';
+
+
+
 const Hero = () => {
   return (
     <Box
@@ -98,33 +102,41 @@ const Hero = () => {
         </Grid>
 
         {/* Image Section */}
-        <Grid item xs={12} md={6} lg={6}>
+        <Grid item xs={12} md={6} lg={6}sx={{display:'flex',alignItems:'center',justifyContent:'center'}}> 
+
           <Box
             sx={{
               display: 'flex',
               maxWidth: '450px',
               cursor: 'pointer',
-              boxShadow: ' 5px 5px 10px black',
-
               justifyContent: { xs: 'center' },
               '&:hover': {
                 transform: 'scale(1.1)',
-                boxShadow: ' 5px 5px 10px black',
               },
             }}
           >
             {/* <img */}
             <Box component='img'
-              src={pic1}
+              src={video1}
               alt="Bloom Website Visual"
               style={{
                 height: '95%',
                 width: '95%',
                 cursor: 'pointer',
                 objectFit: 'cover',
+                boxShadow: ' 5px 5px 10px black',
+
+                '&:hover': {
+                  transform: 'scale(1.1)',
+                  boxShadow: ' 5px 5px 10px black',
+                },
               }}
             />
+
+
           </Box>
+
+
         </Grid>
       </Grid>
     </Box>
