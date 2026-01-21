@@ -22,7 +22,7 @@ const About = () => {
         }}
       >
         {/* Latest Post Section */}
-        <Grid item xs={12} sm={4} md={3} lg={3}>
+        <Grid size={{ xs: 12, sm: 4, md: 3, lg: 3 }}>
           <Typography sx={{ fontSize: '15px', fontWeight: 'bold', mb: '20px' }}>
             Latest Post
           </Typography>
@@ -65,7 +65,7 @@ const About = () => {
         </Grid>
 
 
-        <Grid item xs={12} sm={4} md={3} lg={3}>
+        <Grid size={{ xs: 12, sm: 4, md: 3, lg: 3 }}>
           <Typography sx={{ fontSize: '15px', fontWeight: 'bold', mb: '20px' }}>
             About
           </Typography>
@@ -91,7 +91,7 @@ const About = () => {
 
 
         {/* Stay Connected Section */}
-        <Grid item xs={12} sm={4} md={3} lg={3}>
+        <Grid  size={{xs:12, sm:4, md:3, lg:3}}>
           <Typography sx={{ fontSize: '15px', fontWeight: 'bold', mb: '20px' }}>
             Stay Connected
           </Typography>

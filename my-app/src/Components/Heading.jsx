@@ -12,15 +12,15 @@ import {
 } from '@mui/material';
 
 // Image imports
-import pic2 from '../Asserts/pic2.jpg';
-import pic3 from '../Asserts/pic3.jpg';
-import pic4 from '../Asserts/pic4.jpg';
-import pic5 from '../Asserts/pic5.jpg';
+import pic2 from '../assets/pic2.jpg';
+import pic3 from '../assets/pic3.jpg';
+import pic4 from '../assets/pic4.jpg';
+import pic5 from '../assets/pic5.jpg';
 
-import pic6 from '../Asserts/gif1.gif';
-import pic7 from '../Asserts/gif2.gif';
-import pic8 from '../Asserts/gif3.gif';
-import pic9 from '../Asserts/gif4.gif';
+import pic6 from '../assets/gif1.gif';
+import pic7 from '../assets/gif2.gif';
+import pic8 from '../assets/gif3.gif';
+import pic9 from '../assets/gif4.gif';
 
 // Data arrays
 const cardData = [
@@ -145,7 +145,7 @@ const Heading = () => {
         }}
       >
         {gifData.map((image, index) => (
-          <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+          <Grid key={index} size={{xs:12, sm:6, md:4, lg:3}}>
             <GifCard image={image} index={index} />
           </Grid>
         ))}
@@ -154,7 +154,7 @@ const Heading = () => {
       {/* Food Info Cards */}
       <Grid container spacing={4} justifyContent="center">
         {cardData.map((card, index) => (
-          <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+          <Grid key={index}  size={{xs:12, sm:6, md:4, lg:3}}>
             <FoodCard {...card} />
           </Grid>
         ))}

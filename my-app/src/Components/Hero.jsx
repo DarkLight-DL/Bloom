@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Typography, Button, Grid } from '@mui/material';
-import pic1 from '../Asserts/pic1.webp';
+import pic1 from '../assets/pic1.webp';
 
-import video1 from '../Asserts/video.gif';
+import video1 from '../assets/video.gif';
 
 
 
@@ -41,7 +41,7 @@ const Hero = () => {
 
       <Grid container spacing={5}>
         {/* Text Section */}
-        <Grid item xs={12} md={6} lg={6}>
+        <Grid size={{ xs: 12, md: 6, lg: 6 }}>
           <Box sx={{ ml: { xs: '0', md: '0', lg: '100px' } }}>
             <Typography
               sx={{
@@ -102,7 +102,7 @@ const Hero = () => {
         </Grid>
 
         {/* Image Section */}
-        <Grid item xs={12} md={6} lg={6}sx={{display:'flex',alignItems:'center',justifyContent:'center'}}> 
+        <Grid size={{ xs: 12, md: 6, lg: 6 }} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
           <Box
             sx={{
